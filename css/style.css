@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+section.cover{
+    width: 100%;
+    height: 100vh;
+    background: #6592b9;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+/* 
+body .cover{
+    width: 100%;
+    height: 50%;
+    position: fixed;
+} */
+
+.contact-header{
+    width: 100%;
+    background: #6592b9;
+    padding: 10px 0px !important;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 3px #efefef;
+    position: fixed;
+    top: 0;
+}
+
+.contact-header .info-wrap-effect{
+    text-decoration: none;
+    background: #dddddd;
+    padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.contact-header .fab{
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.contact-header .fa-envelope{
+    color: #f3ca40;
+}
+
+.contact-header .fa-phone{
+    transform: rotate(90deg);
+    color: #67ce2b;
+}
+
+.contact-header .acc-access>a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.contact-header .divider{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact-header .acc-access>a:hover{
+    color: #f3ca40;
+}
+
+.contact-header .fab{
+    color: #ffffff;
+}
+
+.contact-header .fab:hover{
+    color: #efefef;
+}
+/* .contact-header .fa-facebook{ */
+    /* color: #1379ff; */
+    /* color: #efefef; */
+/* } */
+
+/* .contact-header .fa-twitter{ */
+    /* color: #31b1fc; */
+    /* color: #efefef; */
+/* } */
+
+/* .contact-header .fa-instagram{ */
+    /* color: #fc4949; */
+    /* color: #efefef; */
+/* } */
+
+.navbar{
+    top: 60px;
+    border-radius: 0;
+    border: none;
+}
+
+.navbar a{
+    color: #f3ca40;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.navbar .nav li a.active{
+    background: #f3ca40;
+    color: #6592b9;
+}
+
+.navbar .nav li a:hover{
+    background: #f3ca40;
+    color: #6592b9 !important;
+}
+
+.navbar .nav li a:focus{
+    background: #f3ca40;
+    color: #6592b9 !important;
+}
+
+.navbar .navbar-nav li{
+    margin-right: 5px;
+}
+
+.navbar .navbar-toggle{
+    background: #f3ca40 !important;
+}
+
+.navbar .navbar-toggle .icon-bar{
+    background: #6592b9;
+}
+
+/*
+.cover h1{
+    background: #efefef50;
+    padding: 10px 15px 15px 15px; 
+    color: #ffffff;
+    font-family: 'grenze';
+    font-size: 56px;
+    font-weight: bold;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+}*/
+
+.main-text-wrap{
+    width: 900px;
+    height: 600px;
+    background: #ffffff;
+    display: inline-block;
+    position: relative;
+    top: 120px;
+    left: -280px;
+    border-radius: 400px;
+}
+
+.main-text-wrap h1{
+    font-family: 'grenze';
+    color: #6592b9;
+    margin: 40px 0px 0px 320px;
+    font-size: 56px;
+}
+
+.main-text-wrap p{
+    width: 400px;
+    margin: 30px 0px 30px 320px;
+    color: #222222;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.main-text-wrap button{
+    width: 120px;
+    height: 50px;
+    background: #ffffff;
+    color: #6592b9;
+    border: 3px solid #6592b9;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main-text-wrap button:hover{
+    background: #f3ca40;
+    color: #6592b9;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.main-text-wrap button.one{
+    margin-left: 360px;
+    margin-right: 20px;
+}
+
+@font-face{
+    font-family: 'grenze';
+    src: url(../fonts/Grenze.otf);
+}
